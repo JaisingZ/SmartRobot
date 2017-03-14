@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">OTuring</string>
+
+    <string-array name="welcome_tips">
+        <item>我是小O，很高兴见到你</item>
+        <item>老子想死你了</item>
+        <item>我的小宝贝啊，天生是一对儿啊</item>
+        <item>快来陪我玩啊，主人</item>
+    </string-array>
+
+    <string name="str_recorder_normal">按住 说话</string>
+    <string name="str_recorder_recording">松开 结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消发送</string>
+    <string name="button1">开始</string>
+    <string name="button2">自定义</string>
+    <string name="button3">退出</string>
+    <string name="voice">语音</string>
+    <string name="send">发送</string>
+    <string name="button">tips</string>
+    <string name="per_tips">每天多教我一点，我就能更聪明一点^_^</string>
+    <string name="in_tips">在这里输入问题</string>
+    <string name="out_tips">在这里输入回答</string>
+    <string name="save_button">保存</string>
+    <string name="image_des">logo</string>
+    <string name="main_tips1">欢迎使用</string>
+    <string name="main_tips2">Oturing智能聊天机器人</string>
+
+</resources>

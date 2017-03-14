@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_left_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/robot" />
+
+        <TextView
+            android:id="@+id/tv_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_left_head"
+            android:background="@drawable/aio_friend_bg_nor_11"
+            android:gravity="center"
+             />
+
+        <FrameLayout
+            android:id="@+id/id_left_recorder_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/iv_left_head"
+            android:layout_toRightOf="@id/iv_left_head"
+            android:background="@drawable/chatto_bg_focused"
+            android:visibility="gone" >
+
+            <View
+                android:id="@+id/id_left_recorder_anim"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical|left"
+                android:background="@drawable/adj" >
+            </View>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/id_left_recorder_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/id_left_recorder_length"
+            android:textColor="#ff777777"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_right"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_right_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/visitor" />
+
+        <TextView
+            android:id="@+id/tv_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_right_head"
+            android:background="@drawable/aio_user_bg_nor_11"
+            android:gravity="center"
+             />
+
+        <FrameLayout
+            android:id="@+id/id_right_recorder_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/iv_right_head"
+            android:layout_toLeftOf="@id/iv_right_head"
+            android:background="@drawable/chatto_bg_focused"
+            android:visibility="gone" >
+
+            <View
+                android:id="@+id/id_right_recorder_anim"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/adj" >
+            </View>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/id_right_recorder_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/id_right_recorder_length"
+            android:textColor="#ff777777"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
